@@ -6,9 +6,9 @@ import Logo from "../images/mv-logo-sm.png"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#721121`,
       marginBottom: `1.45rem`,
       textAlign: `center`,
+      borderTop: `.5rem solid red`,
     }}
   >
     <div
@@ -21,11 +21,13 @@ const Header = ({ siteTitle }) => (
       <Link
         to="/"
         style={{
-          color: `white`,
+          color: `#333333`,
           textDecoration: `none`,
         }}
       >
-        <img style={{ maxWidth: `10rem`, marginBottom: 0 }} src={Logo} alt="" />
+        <img style={{ maxWidth: `20rem`, marginBottom: 0 }} src={Logo} alt="" />
+        <h1>Welcome to Master Video LLC</h1>
+        <p>Welcome to your new Gatsby site.</p>
       </Link>
     </div>
   </header>
