@@ -26,8 +26,6 @@ const Header = ({ siteTitle }) => (
         }}
       >
         <img style={{ maxWidth: `20rem`, marginBottom: 0 }} src={Logo} alt="" />
-        <h1>Welcome to Master Video LLC</h1>
-        <p>Welcome to your new Gatsby site.</p>
       </Link>
     </div>
   </header>
