@@ -8,12 +8,12 @@ const Header = ({ siteTitle }) => (
     style={{
       marginBottom: `1.45rem`,
       textAlign: `center`,
-      borderTop: `.5rem solid red`,
+      borderTop: `.5rem solid var(--primaryColor)`,
     }}
   >
     <div
       style={{
-        margin: `0 auto`,
+        // margin: `0 auto`,
         maxWidth: 960,
         padding: `.5rem 1.0875rem`,
       }}
@@ -25,7 +25,7 @@ const Header = ({ siteTitle }) => (
           textDecoration: `none`,
         }}
       >
-        <img style={{ maxWidth: `20rem`, marginBottom: 0 }} src={Logo} alt="" />
+        <img style={{ maxWidth: `16rem`, marginBottom: 0 }} src={Logo} alt="" />
       </Link>
     </div>
   </header>
